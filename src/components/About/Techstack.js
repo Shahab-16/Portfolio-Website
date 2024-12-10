@@ -1,68 +1,86 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* HTML */}
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
+        </a>
       </Col>
+      {/* JavaScript */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
+        </a>
       </Col>
+      {/* MySQL */}
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
+        </a>
       </Col>
+      {/* Node.js */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
+        </a>
       </Col>
+      {/* Pandas */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40" />
+        </a>
       </Col>
+      {/* Python */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <a href="https://www.python.org" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
+        </a>
       </Col>
+      {/* React */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+        </a>
       </Col>
+      {/* Scikit-learn */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40" />
+        </a>
       </Col>
+      {/* Seaborn */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
+          <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40" />
+        </a>
       </Col>
+      {/* TailwindCSS */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+          <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40" />
+        </a>
       </Col>
+      {/* Express.js */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
+          <img src="https://img.icons8.com/ios/50/ffffff/express-js.png" alt="express" width="40" height="40" />
+        </a>
       </Col>
+      {/* MongoDB */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+          <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" width="40" height="40" />
+        </a>
       </Col>
+      {/* Postman */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <a href="https://www.postman.com/" target="_blank" rel="noreferrer">
+          <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40" />
+        </a>
       </Col>
     </Row>
   );
