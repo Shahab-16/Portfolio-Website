@@ -37,7 +37,6 @@ function Projects() {
               title="MediSense"
               description="Medisense is a full-stack healthcare platform developed using ReactJS, NodeJS, MongoDB, ExpressJS, Scikit-learn, and TensorFlow. It offers features like one-to-one video consultations with doctors and online medicine shopping with home delivery. The platform integrates high-accuracy ML and DL models for disease prediction. It aims to enhance accessibility and efficiency in healthcare services."
               ghLink="https://github.com/Shahab-16/MediSense"
-              demoLink="/"
             />
           </Col>
 
@@ -48,7 +47,6 @@ function Projects() {
               title="Encryptrix Intern Project"
               description="Interned at Encryptrix, where I developed machine learning models and conducted extensive data cleaning, exploratory data analysis (EDA), and data visualization to uncover insights. Built interactive visualizations to enhance data understanding and model performance. Integrated the models into a web application using Flask for seamless functionality."
               ghLink="https://github.com/Shahab-16/Encryptix_Intern_Projects/tree/master"
-              demoLink="/"              
             />
           </Col>
 
