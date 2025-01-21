@@ -9,6 +9,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiHackerrank, SiLeetcode } from "react-icons/si";
 
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -64,7 +65,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://linkedin.com/in/md-shahab-uddin"
+                  href="https://www.linkedin.com/in/md-shahab-uddin-500405268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="blank"
                   className="icon-colour home-social-icons"
                   rel="noreferrer"

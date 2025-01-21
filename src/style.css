@@ -344,20 +344,47 @@ button:focus {
 
 .home-about-social-links {
   justify-content: center !important;
+  margin-top: 24px !important;
   padding-top: 15px !important;
+  padding: 15px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
 }
 
+
+.icon-colour {
+  color: #700c86 !important;
+}
+
+
+.home-about-social-links {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 24px !important;
+  padding: 15px !important;
+  gap: 15px; /* Adds spacing between the icons */
+  list-style: none !important;
+  padding-inline-start: 0 !important;
+}
+
+.social-icons {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove extra padding to avoid misalignment */
+}
+
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
   font-size: 1.2em !important;
-  line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
@@ -388,15 +415,6 @@ button:focus {
   text-shadow: 0 0 2px #87209e;
 }
 
-.social-icons {
-  display: inline-block !important;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.icon-colour {
-  color: #700c86 !important;
-}
 
 /* --------- */
 /* Footer */
