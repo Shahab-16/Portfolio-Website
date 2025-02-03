@@ -51,8 +51,6 @@ function About() {
 
         <Experience/>
 
-        <LeetCode/>
-
         <Github />
  
       </Container>
