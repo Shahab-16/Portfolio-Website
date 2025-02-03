@@ -28,14 +28,14 @@ const experiences = [
       sub: "Data Structures and Algorithms",
       date: "Nov 2023 - present",
       description:
-        "Solved 600+ DSA problems on various platforms like Leetcode, GeeksforGeeks,CodeChef,HackerRank etc.",
+        "Solved 700+ DSA problems on various platforms like Leetcode, GeeksforGeeks,CodeChef,HackerRank etc.",
       alignment: "right",
     },
     {
       heading: "Data Science and ML Intern",
       sub: "Encryptyx",
       date: "June 2024 - July 2024",
-      description: "Built project on Ml and integrated it with frontend.",
+      description: "Built project on ML and integrated it with frontend.",
       alignment: "left",
       type: "work",
     },

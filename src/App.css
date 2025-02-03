@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.leetcode-calendar .legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.leetcode-calendar .legend text {
+  font-size: 14px;
+  fill: var(--imp-text-color) !important; /* Purple text */
+}
+
+.leetcode-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Equivalent to Tailwind's mx-auto */
+  width: fit-content; /* Ensures it doesn’t stretch unnecessarily */
+}
+
+
+

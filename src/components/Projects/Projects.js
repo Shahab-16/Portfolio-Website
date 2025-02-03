@@ -37,6 +37,7 @@ function Projects() {
               title="MediSense"
               description="Medisense is a full-stack healthcare platform developed using ReactJS, NodeJS, MongoDB, ExpressJS, Scikit-learn, and TensorFlow. It offers features like one-to-one video consultations with doctors and online medicine shopping with home delivery. The platform integrates high-accuracy ML and DL models for disease prediction. It aims to enhance accessibility and efficiency in healthcare services."
               ghLink="https://github.com/Shahab-16/MediSense"
+              demoLink="https://medisense-frontend.vercel.app/"
             />
           </Col>
 
