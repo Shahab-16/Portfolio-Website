@@ -24,7 +24,7 @@ const experiences = [
       type: "school",
     },
     {
-      heading: "600+ DSA Problems Solved",
+      heading: "700+ DSA Problems Solved",
       sub: "Data Structures and Algorithms",
       date: "Nov 2023 - present",
       description:

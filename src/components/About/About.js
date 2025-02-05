@@ -1,15 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
+//import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Experience from "../Experience";
-import LeetCode from "./LeetCode";
-
-
 
 function About() {
   return (
@@ -51,7 +48,7 @@ function About() {
 
         <Experience/>
 
-        <Github />
+        {/*<Github />*/}
  
       </Container>
     </Container>
