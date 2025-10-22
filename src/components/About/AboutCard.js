@@ -11,7 +11,7 @@ function AboutCard() {
             Hello everyone, I am <span className="purple">   MD Shahab Uddin   </span>
             <span>  from  </span><span className="purple"> Rourkela, India.</span>
             <br />
-            I am currently a third-year undergraduate student pursuing a Bachelor's degree at NIT Rourkela.
+            I am currently a final-year undergraduate student pursuing a Bachelor's degree at NIT Rourkela.
             <br />
             <br />
             Beyond programming, here are a few activities I genuinely enjoy!
