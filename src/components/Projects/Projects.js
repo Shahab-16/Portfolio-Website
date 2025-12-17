@@ -10,7 +10,8 @@ import medisense from "../../Assets/Projects/medisense.png";
 import spamClassifier from "../../Assets/Projects/spamClassifier.png";
 import vizora from "../../Assets/Projects/vizora.png";
 import only4u from "../../Assets/Projects/only4u.png";
-import sensor from "../../Assets/Projects/sensor.jpg"; 
+import sensor from "../../Assets/Projects/sensor.jpg";
+import hrinsight from "../../Assets/Projects/hrinsight.png"; // ⬅️ add image
 
 function Projects() {
   return (
@@ -31,7 +32,7 @@ function Projects() {
               imgPath={yumzy}
               isBlog={false}
               title="Yumzy"
-              description="A full-stack food delivery platform built with React.js, Node.js, Express, and MongoDB. Includes secure JWT authentication, order tracking, and an admin dashboard for food and user management. Integrated Stripe for payment processing."
+              description="A full-stack food delivery platform built with React.js, Node.js, Express, and MongoDB. Includes secure JWT authentication, order tracking, admin dashboard, and Stripe-based payment integration."
               ghLink="https://github.com/Shahab-16/Yumzy"
               demoLink="https://yumzy-frontend-cmii.onrender.com/"
             />
@@ -43,7 +44,7 @@ function Projects() {
               imgPath={medisense}
               isBlog={false}
               title="MediSense"
-              description="A MERN + ML powered healthcare platform enabling real-time doctor consultations, pharmacy orders, and patient management. Integrated Scikit-learn models for disease prediction and real-time chat via Socket.io."
+              description="A MERN + ML powered healthcare platform enabling real-time doctor consultations, pharmacy orders, and disease prediction using Scikit-learn with real-time chat via Socket.io."
               ghLink="https://github.com/Shahab-16/MediSense"
               demoLink="https://medisense-frontend.vercel.app/"
             />
@@ -55,9 +56,21 @@ function Projects() {
               imgPath={vizora}
               isBlog={false}
               title="Vizora Enterprises"
-              description="A scalable microservices-based e-commerce system built during my Software Engineering Internship at Vizora. Designed RESTful APIs using Node.js, Express, MongoDB, and RabbitMQ with JWT-based authentication and role-based access control."
+              description="A scalable microservices-based e-commerce system built during my Software Engineering Internship. Designed REST APIs using Node.js, Express, MongoDB, RabbitMQ with JWT authentication and RBAC."
               ghLink="https://github.com/Shahab-16/Vizora-Enterprises"
               demoLink="https://vizora-enterprises.vercel.app/"
+            />
+          </Col>
+
+          {/* 📊 HRInsight Pro */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hrinsight}
+              isBlog={false}
+              title="HRInsight Pro"
+              description="An AI-powered HR diagnostic testing platform that evaluates organizational maturity through MCQ-based assessments. Generates automated insights, maturity scores, radar chart data, and strategic HR recommendations using GPT API."
+              ghLink="https://github.com/Shahab-16/HRINSIGHT-PRO/"
+              demoLink="https://hrinsight-pro.vercel.app/"
             />
           </Col>
 
@@ -67,7 +80,7 @@ function Projects() {
               imgPath={only4u}
               isBlog={false}
               title="Only4U Training"
-              description="An educational and training website built with React.js and Tailwind CSS. Features interactive pages including Home, Courses, Testimonials, and FAQ. Emphasizes responsive UI, reusability, and modern component structure."
+              description="An educational and training website built with React.js and Tailwind CSS. Includes Courses, Testimonials, FAQs, and a fully responsive, reusable component-based UI."
               ghLink="https://github.com/Shahab-16/Only4U-Training"
               demoLink="https://only-4u-training.vercel.app/"
             />
@@ -79,7 +92,7 @@ function Projects() {
               imgPath={sensor}
               isBlog={false}
               title="Sensor Fault Detection"
-              description="A Machine Learning project designed to identify sensor malfunctions using predictive modeling. Implemented modular pipelines for data ingestion, transformation, and model training using Python, Scikit-learn, and Flask for deployment."
+              description="A machine learning system to detect sensor failures using predictive modeling. Built modular ML pipelines for data ingestion, transformation, training, and deployed using Flask."
               ghLink="https://github.com/Shahab-16/Sensor-Fault-Detection"
             />
           </Col>
@@ -90,7 +103,7 @@ function Projects() {
               imgPath={encryptix}
               isBlog={false}
               title="Encryptyx Internship Project"
-              description="Developed and optimized machine learning models during my Data Science & ML internship at Encryptyx. Conducted data cleaning, EDA, visualization, and integrated models into a Flask-based frontend for live inference."
+              description="Worked on end-to-end ML workflows including data cleaning, EDA, visualization, model training, and Flask-based deployment during my Data Science & ML internship."
               ghLink="https://github.com/Shahab-16/Encryptix_Intern_Projects/tree/master"
             />
           </Col>
@@ -101,7 +114,7 @@ function Projects() {
               imgPath={spamClassifier}
               isBlog={false}
               title="Spam Classifier"
-              description="A text classification model using NLP to identify spam messages with high precision. Built with Python, Scikit-learn, and NLTK for preprocessing and trained with TF-IDF vectorization."
+              description="An NLP-based text classification model to detect spam messages using TF-IDF vectorization, Scikit-learn, and NLTK with high precision."
               ghLink="https://github.com/Shahab-16/Fake_News_Detection/tree/my-new-branch"
             />
           </Col>
